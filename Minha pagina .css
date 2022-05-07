@@ -1,0 +1,248 @@
+.fiat {
+    background-color: rgb(255, 255, 255);
+    
+}
+blockquote{
+    border-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 10px
+}
+.topo{
+    background-image:linear-gradient(45deg, rgb(202, 72, 180) ,rgb(161, 101, 218), rgb(22, 165, 201), rgb(155, 121, 219));
+    
+            height: 100%;
+    color: white;
+    border: 10px;
+    border-radius: 15px;
+}
+
+.topo ul{
+    display: flex;
+    justify-content: space-around;
+  margin: 5px;
+  padding:16px;
+    list-style-type: none;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.topo a {
+    color: white;
+    text-decoration:none;
+    
+}
+.topo a :hover{
+    color: blueviolet;
+}
+
+.imgtopo{
+    border-radius: 50%;
+    border-color: rgb(0, 0, 0);
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(255, 255, 255);
+
+}
+.rosto {
+    display: flex;
+    justify-content:center;
+    border-radius: 50%;
+    border:5px solid white;
+    align-items: center;
+}
+
+.pnocentro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mode {
+        display: flex;
+          justify-content:center;
+            border-radius: 50%;
+            align-items: center;
+      
+}
+
+.alinhar{
+    display: flex;
+          justify-content:center;
+            
+            align-items: center;
+}
+
+.titulo-principal{
+    display: flex;
+    justify-content:center;
+    margin: 3px;
+      align-items: center;
+      margin-top: 2px;
+}
+
+
+  h2{
+      margin:5px;
+      padding:3px;
+  }  
+  .container  {
+      padding: 2px;
+      margin: 2px;
+    
+  }
+  .alinhado{
+      justify-content: center;
+      margin: 2px;
+      padding: 30px;
+  }
+  .ncentro{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+ .tbm{
+    justify-content: center;
+    margin: 0px;
+    padding: 30px;
+ }
+ 
+ .fiat{
+    height: 306px;
+    width: 780px;
+    margin: 15px;
+    padding: 65px;
+    border-radius:15px; 
+ }
+ .arrumar{
+    margin: 0px;
+    padding: 30px;
+    justify-content: center;
+ }
+
+footer{
+    display: flex;
+    justify-content: center;
+   
+}
+footer a {
+    margin: 20px;
+    text-align: center;
+    text-decoration: none;
+    
+    
+}
+
+footer p {
+margin: 2px;
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+}
+aside{
+   
+      justify-content: center;
+      margin: 30px;
+      padding: 30px;
+}
+.menu-principal{
+    margin-top: 3px;
+    list-style: none;
+    text-decoration: none;
+    margin: 10px;
+    padding: 20px;
+}
+.menu-principal a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+}
+ 
+.icones-sociais{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3px;
+    list-style: none;
+    color:  white;
+    text-decoration:none;
+    margin: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icones-sociais a {
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  white;
+    justify-content: space-between;
+}
+.entre{
+    display: flex;
+    justify-content:space-between;
+    border: 5px;
+    margin: 20px;
+    padding: 20px;
+
+}
+.marge {
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+}
+.entre img {
+    border: solid white 5px;
+}
+    
+
+.circulo img{
+    display: flex;
+    justify-content:space-around;
+    border-radius: 100%;
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid rgb(255, 255, 255);
+    
+}
+.icones-sociais p {
+    text-align: center;
+    margin: 2px;
+
+}
+
+.centro{
+    margin: 10px;
+    padding: 25px;
+
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;  
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    ul p {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li p{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+  
+    

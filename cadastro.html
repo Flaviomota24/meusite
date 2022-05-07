@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+
+        <!-- Título da página (aparece na aba) -->
+        <title>Cadastro</title>
+    </head>
+
+    <body> 
+        <div>
+            <nav class="cabeça">
+                <ul>
+                     <li>
+                         <a href="ADS.html"><h4><strong>SOBRE ADS</strong></h4></a>
+                     </li>
+                     <li>
+                         <a href="Meus Projetos.html"><h4><strong>ESTUDO</strong></h4></a>
+                     </li>
+                     <li>
+                         <a href="index.html"><h4><strong>PAGÍNA PRINCIPAL</strong></h4></a>
+                    </li>
+                      <li><img src="./images/Design sem nome.png" alt="50" width="50" height="50"></li>
+                   </ul>
+              </nav>
+               <br><br>
+        </div> 
+ <div>
+     
+ </div>
+       <div>
+            <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div>
+            <h1 id="titulo">Cadastro de Visitantes</h1>
+           
+            <br>
+        </div>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+             <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+             <div class="campo">
+                <label for="data"><strong>Data de nascimento</strong></label>
+                <input type="date" name="data" id="data" required>
+            </div>
+             <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+             <div class="campo">
+                <label for="tel"><strong>Número</strong></label>
+                <input type="tel" name="tel" id="tel" required>
+            </div>
+             <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+             <div class="campo">
+                <label for="number"><strong>Idade</strong></label>
+                <input type="number" name="number" id="number" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Qual carreira você pretende seguir?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend" checked>Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Fullstack
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend">Mobile
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend">DBA
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack">Outra
+                </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong>Você já trabalhou como:</strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Júnior</option>
+                  <option>Pleno</option>
+                  <option>Sênior</option>
+                  <option>Jovem aprendiz</option>
+                  <option>Estagiário</option>
+                  <option>Freelancer</option>
+                  <option>não trabalhei</option>
+                </select>
+            </div>
+            <br><br>
+            <div class="campo">
+                <label for="estado"><strong>Qual é o seu Estado ?</strong></label>
+                <select id="estado" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option value="">Selecione</option>
+                  <option value="AC">AC</option>
+                  <option value="AL">AL</option>
+                  <option value="AP">AP</option>
+                  <option value="AM">AM</option>
+                  <option value="BA">BA</option>
+                  <option value="CE">CE</option>
+                  <option value="DF">DF</option>
+                  <option value="ES">ES</option>
+                  <option value="GO">GO</option>
+                  <option value="MA">MA</option>
+                  <option value="MS">MS</option>
+                  <option value="MT">MT</option>
+                  <option value="MG">MG</option>
+                  <option value="PA">PA</option>
+                  <option value="PB">PB</option>
+                  <option value="PR">PR</option>
+                  <option value="PE">PE</option>
+                  <option value="PI">PI</option>
+                  <option value="RJ">RJ</option>
+                  <option value="RN">RN</option>
+                  <option value="RS">RS</option>
+                  <option value="RO">RO</option>
+                  <option value="RR">RR</option>
+                  <option value="SC">SC</option>
+                  <option value="SP">SP</option>
+                  <option value="SE">SE</option>
+                  <option value="TO">TO</option>
+               </select>
+            </div>   
+           
+           <br><br>
+            <fieldset class="grupo">
+               
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <br>
+                <div id="check">
+                    <label><strong>Qual linguagem voçê utiliza:</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> HTML</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> CSS</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> JavaScript</label>
+                    <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Java">
+                    <label for="tecnologia4">Java</label>
+                    <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
+                    <label for="tecnologia5">C#</label>
+                    <input type="checkbox" id="tecnologia6" name="tecnologia6" value="PHP">
+                    <label for="tecnologia6">PHP</label>
+                    <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Python">
+                    <label for="tecnologia7">Python</label>
+        
+                    <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Git">
+                    <label for="tecnologia1"> GIT</label>
+                    <input type="checkbox" id="tecnologia9" name="tecnologia9" value="Ruby">
+                    <label for="tecnologia2"> Ruby</label>
+                    <input type="checkbox" id="tecnologia10" name="tecnologia10" value="Cobol">
+                    <label for="tecnologia3">Cobol</label>
+                    <input type="checkbox" id="tecnologia11" name="tecnologia11" value="SQL">
+                    <label for="tecnologia4">SQL</label>
+                    <input type="checkbox" id="tecnologia12" name="tecnologia12" value="C/C++">
+                    <label for="tecnologia5">C/C++</label>
+                    <input type="checkbox" id="tecnologia13" name="tecnologia13" value="Metlab">
+                    <label for="tecnologia6">Metlab</label>
+                    <input type="checkbox" id="tecnologia14" name="tecnologia14" value="R">
+                    <label for="tecnologia7">R</label>
+                </div>
+            </fieldset>
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Fale um pouco sobre voçê: </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+             <div>
+                <button>Enviar</button>
+             </div>      
+
+        </form>
+
+        <div class="foton">
+            <img src="./images/HI86p.png" alt="50" width="50" height="50">
+           <img src="./images/github.svg" alt="50" width="50" height="50">
+           <img src="./images/html-5.svg" alt="50" width="50" height="50">
+        </div>
+
+       </div>
+       <br><br>
+
+     <footer class="rodape-pagina">
+        &copy; Flávio Silva 2022.
+    </footer>
+    </body>
+
+</html>
+
+
+

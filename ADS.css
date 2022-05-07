@@ -1,0 +1,162 @@
+body {
+    background-image:linear-gradient(45deg, rgb(000,000,000) ,rgb(161, 101, 218), rgb(22, 165, 201), rgb(155, 121, 219));
+    height: 100%;
+    margin: 30px;
+    margin-left: 35px;
+    margin-right: 35px;   
+} 
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+    padding: 20px;
+    height: 20px;
+    background-image:linear-gradient(45deg ,rgb(161, 101, 218), rgb(22, 165, 201), rgb(141, 97, 221));
+    height: 100%;
+    
+    
+    list-style-type: none;
+}
+nav{
+    border: solid white 5px;
+    margin-top: 35px;
+    border-radius: 15px;
+    
+
+}
+nav  a :hover{
+    color: blueviolet;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+body {
+    background-image:linear-gradient(45deg, rgb(000,000,000) ,rgb(161, 101, 218), rgb(22, 165, 201), rgb(155, 121, 219));
+    
+    margin: 15px;
+     margin-left: 35px;
+      margin-right: 45px;
+       padding: 25px;
+       
+}
+li img{
+    border-radius: 100%;
+    border: solid white 3px;
+    
+}
+.acima{
+    display: flex;
+   margin-right: 48px;
+   margin-right: 45px;
+   margin-top: 20px;
+
+}
+.jeito{
+    border-radius: 25px;
+    margin: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.jeito p {
+    text-align: left;
+    display: center;
+    margin: 25px;
+    margin-right: 35px;
+    margin-left: 35px;
+    justify-content: left;
+}
+
+.jeito img{
+    border-radius: 45px ;
+}
+.branco{
+    background-color: white;
+    margin: 25px;
+    margin-left: 15px;
+    margin: right 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    
+}
+.branco img{
+    border-radius: 25px;
+}
+.alind{
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+.opinar img {
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-left: 55px;
+}
+.centrou img{
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    margin-left: 55px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.final{
+    text-align: center;
+    justify-content: center;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}  
+p{
+
+font-family: Arial, Helvetica, sans-serif;
+}
+ul p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+img{
+    border-radius: 25px;
+}
+blockquote{
+    background-color:  white;
+    border-radius: 25px;
+    border: solid black 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.local{
+    padding: 10px;
+    margin: 2px;
+   
+}
+
+.bet{
+    padding: 10px;
+    margin: 2px;  
+}
+.drenar{
+    display: flex;
+    justify-content: space-around;
+}
